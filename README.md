@@ -7,6 +7,14 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 10/10/17
+## Git
+To remove branches on remote `git push REPO --delete BRANCH`
+
+## Vim
+  * `CRTL-X` decrements a number
+    * (and `CRTL-A` increments a number)
+
 # 10/4/17
 ## Markdown
 I keep forgetting how to make checkmark lists. They go like this:
@@ -25,6 +33,7 @@ Output
 ## Vim
   * `f`_CHAR_ brings you forward to the next _CHAR_
     * Note that it *does* work with `d` to delete things.
+    * And also it only works on the current line
 
 ## Bash
 These are the basic string substitutions. These examples are based from
