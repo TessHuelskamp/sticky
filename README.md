@@ -34,6 +34,9 @@ Output
   * `f`_CHAR_ brings you forward to the next _CHAR_
     * Note that it *does* work with `d` to delete things.
     * And also it only works on the current line
+    * ALSO: `F` brings you _backward_ to the next char.
+  * `t` and `T` work similarly to `f` and `F` but they bring you to the
+    character _prior_ to the characer that follows the operator.
 
 ## Bash
 These are the basic string substitutions. These examples are based from
@@ -53,7 +56,3 @@ These are the basic string substitutions. These examples are based from
 | `${STRING//pattern/newpattern}` | Delete all instances of `pattern` in `$STRING` | |
 | `${STRING//pattern/newpattern}` | Replace all instances of `pattern` in `$STRING` with `newpattern` | |
 
-
-
-
- 
