@@ -7,6 +7,15 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 10/16/17
+In shell scripts, you can make "comments" that only take up part of the line
+like this: `` `#comment` ``. The way this works is that the backticks excute
+another shell (much like `$(CMD)`) and then the "command" that gets executed is
+the commented line. I'm not sure why you can't do comments like this: `$(#CMD)`.
+
+> In order to use backticks in code spans (span, I guess, is the word for an
+> inline block), you can begin the span with more than one \`.
+
 # 10/10/17
 ## Git
 To remove branches on remote `git push REPO --delete BRANCH`
