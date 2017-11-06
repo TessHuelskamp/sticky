@@ -7,6 +7,36 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 11/6/17 - Bash
+
+This evetually we be moved to be near the string manipulation section but here's
+information about bash variable replacement.
+
+> These notes are based off of [this](http://tldp.org/LDP/abs/html/parameter-substitution.html) reference.
+
+> The `:` is optional in the following examples. Ommitting it removes the check
+> if the variable is null or not.
+
+| Substitution | What it does |
+|---------|--------------|
+| `${param:-default}` | If `$param` is not set or is null, use `default` as the string |
+| `${param:=default}` | If `$param` is not set or is null, *set* `default` to `$param` |
+| `${param:+default}` | If `$param` is *set*, use `default`. Else, use the null string |
+| `${param:?error_msg}` | If `$param` is set use it, if not abort the script with status=1 and display `error_msg`. |
+
+## bash - uncategorized
+```bash
+${!prefix@} #lists all variables (names. not values) starting with prefix
+${!prefix*} #lists all variables starting with prefix
+# I'm not yet sure what the difference between * and @ is.
+# My guess it's similar to * and @ in arrays.
+```
+> [This site](http://tldp.org/LDP/abs/html/ivr.html) seems to explain this. I
+> don't have time to look into it now but it looks like it allows you to hack
+> out pointer type things.
+
+## Bash
+
 # 10/23/17 - Gmail shortcuts
 These shortcuts are directly taken from
 [this](https://blog.hubspot.com/sales/gmail-keyboard-shortcuts) article.
