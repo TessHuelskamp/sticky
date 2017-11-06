@@ -112,8 +112,9 @@ These are the basic string substitutions. These examples are based from
 | `${#STRING}` | The number of chars in `$STRING` | |
 | `${STRING:IDX}` | `$STRING` starting at index `IDX` (0-based) | Can do negative indicies but need a space or parens between `:` and IDX|
 | `${STRING:IDX:LEN}` | `$STRING` starting at index `IDX` (0-based) for at most `LEN` chars | |
-| `${STRING/pattern}` | Delete first instance of pattern in `$STRING` | |
+| `${STRING/pattern}` | Delete _first_ instance of pattern in `$STRING` | |
 | `${STRING/pattern/newpattern}` | Replace first instance of `pattern` in `$STRING` with `newpattern` | |
-| `${STRING//pattern/newpattern}` | Delete all instances of `pattern` in `$STRING` | |
+| `${STRING//pattern}` | Delete _all_ instances of `pattern` in `$STRING` | |
 | `${STRING//pattern/newpattern}` | Replace all instances of `pattern` in `$STRING` with `newpattern` | |
+| `${STRING/{#,%}pattern/newpattern}` | Replace the {front, back} of `$STRING` with `newpattern` if `pattern` matches. | |
 
