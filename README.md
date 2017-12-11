@@ -7,6 +7,23 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 12/11/17 cpp lambdas
+[Ref](http://en.cppreference.com/w/cpp/language/lambda)
+Syntax is one of the following things
+* `[capture](params){fn; body;}`
+* `[capture](params)->retType{fn; body;}`
+* `[capture]{fn; body;}` (no params)
+
+## capture explained
+The capture option can take one of the following values.
+| capture | result |
+| :-----: | ------ |
+| `[]` | captures nothing |
+| `[=]` | capture everything in scope by value _at time of def_ |
+| `[&]` | capture everything in scope by reference |
+| `[this]` | captures current object by `*this` ref |
+| `[a, &b]` | capture var `a` by copy, `b` by ref
+
 # 11/6/17 - Bash
 
 This evetually we be moved to be near the string manipulation section but here's
