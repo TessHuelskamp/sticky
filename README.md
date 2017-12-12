@@ -16,13 +16,14 @@ Syntax is one of the following things
 
 ## capture explained
 The capture option can take one of the following values.
+
 | capture | result |
 | :-----: | ------ |
 | `[]` | captures nothing |
 | `[=]` | capture everything in scope by value _at time of def_ |
 | `[&]` | capture everything in scope by reference |
 | `[this]` | captures current object by `*this` ref |
-| `[a, &b]` | capture var `a` by copy, `b` by ref
+| `[a, &b]` | capture var `a` by copy, `b` by ref |
 
 # 11/6/17 - Bash
 
