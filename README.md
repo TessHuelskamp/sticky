@@ -27,12 +27,12 @@ The capture option can take one of the following values.
 
 # 11/6/17 - Bash
 
-This evetually we be moved to be near the string manipulation section but here's
+This eventually we be moved to be near the string manipulation section but here's
 information about bash variable replacement.
 
 > These notes are based off of [this](http://tldp.org/LDP/abs/html/parameter-substitution.html) reference.
 
-> The `:` is optional in the following examples. Ommitting it removes the check
+> The `:` is optional in the following examples. Omitting it removes the check
 > if the variable is null or not.
 
 | Substitution | What it does |
@@ -71,7 +71,7 @@ This is the view that you enter when you first got to gmail.
   * `shift + 8 + u` grabs all of the unread messages
   * `e` (with messages selected) archives messages
   * `=` (with messages selected) marks messages as important
-  * `c` drops you into _c_ompose mode
+  * `c` drops you into compose mode
   * `/` drops you into search mode (just like vim!!)
   * and `j` and `k` move up and down your messages like you would expect them to
 
@@ -83,14 +83,14 @@ This is the view that you enter when you first got to gmail.
 This view basically isn't the inbox view and isn't when you're composing a
 message.
 
-  * `r` allows you to _r_eply to a message
-  * `a` allows you to reply _a_ll to a message
-  * `f` lets your _f_orward a message
+  * `r` allows you to reply to a message
+  * `a` allows you to reply all to a message
+  * `f` lets your forward a message
   * `shift + u` allows you to mark a message as unread
   * `=`, `e`, `a`, `r`, `j`, and `k` work as before
-  * `n` jumps you to the `n`ext message in the thread
-  * `p` jumps you to the `p`revious message in the thread
-  * `m` lets you `m`ute the thread
+  * `n` jumps you to the next message in the thread
+  * `p` jumps you to the previous message in the thread
+  * `m` lets you mute the thread
   * `u` allows you to go back to inbox view
 
 ## Compose view
@@ -105,7 +105,7 @@ message.
 
 # 10/16/17
 In shell scripts, you can make "comments" that only take up part of the line
-like this: `` `#comment` ``. The way this works is that the backticks excute
+like this: `` `#comment` ``. The way this works is that the backticks execute
 another shell (much like `$(CMD)`) and then the "command" that gets executed is
 the commented line. I'm not sure why you can't do comments like this: `$(#CMD)`.
 
@@ -158,8 +158,9 @@ These are the basic string substitutions. These examples are based from
 | `${STRING%pattern}` | Remove shortest matching pattern from `$STRING` starting at the end | This one is good for modifying file suffixes |
 | `${STRING%%pattern}` | Remove longest matching pattern from `$STRING` starting at the end | |
 | `${#STRING}` | The number of chars in `$STRING` | |
-| `${STRING:IDX}` | `$STRING` starting at index `IDX` (0-based) | Can do negative indicies but need a space or parens between `:` and IDX|
+| `${STRING:IDX}` | `$STRING` starting at index `IDX` (0-based) | Can do negative indices but need a space or parens between `:` and `IDX`|
 | `${STRING:IDX:LEN}` | `$STRING` starting at index `IDX` (0-based) for at most `LEN` chars | |
+
 | `${STRING/pattern}` | Delete _first_ instance of pattern in `$STRING` | |
 | `${STRING/pattern/newpattern}` | Replace first instance of `pattern` in `$STRING` with `newpattern` | |
 | `${STRING//pattern}` | Delete _all_ instances of `pattern` in `$STRING` | |
