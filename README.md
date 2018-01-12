@@ -7,6 +7,71 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+
+# 1/12/17 - Quick ways to get around the terminal line
+If I only learn one thing, it would be that `{alt, esc} + .` places the last
+argument from the previous cmd where the cursor currently is. So, you can do
+something like `vim stuff.sh` and then `sh stuff.sh` without having to type
+`stuff.sh` twice. I've known this exists for a while and I can't believe I just
+got around to writing it down now.
+
+## Other, less transformative, commands:
+Apparently, these ones are similar to emacs and that there is a way to change
+the shell to vim mode. I've already learned `^a` and `^e` so I think it would be
+good for me to at least learn these ones. That doesn't mean I should give up vim
+as my primary editor either :smile:
+
+All of these I got from reading the bash book I got in my humble bundle a while
+ago.
+
+### editing the command line
+| cmd | description |
+| --- | ---- |
+| {esc,alt} . | insert last work in prev command line after point (good if you want to run multiple commands on the same file |
+| `^b` | back a char |
+| `^f` | forward a char |
+| `alt+b` | back a word |
+| `alt+^f` | forward a word |
+| `^d` | delete one char forward |
+| `del` | delete one char backward |
+| `^a` | go to beginning of line |
+| `^e` | go to end of line |
+| `^u` | kill the line from beginning to point |
+| `^k` | kill from the point to the end of line |
+
+### cmd completion
+it's not very likely I'll use these day to day but it's worth knowing they
+exist.
+
+| cmd | description |
+| --- | ---- |
+| `tab` | you know what this is |
+| `esc ?` | list possible completions |
+| `esc /` | attempt file name completions |
+| `esc ~` | attempt user name completions |
+| `esc $` | attempt variable name completions |
+| `esc @` | attempt host name completions |
+| `esc !` | attempt command completions |
+| `esc tab` | attempt completion from prev commands in history |
+
+### miscellaneous
+| cmd | description |
+| --- | ---- |
+| `^j` | return |
+| `^l` | clear screen |
+| `^t` | transpose two chars near point |
+| `esc-c` | capitalize word after point |
+| `esc-u` | uppercase next word |
+| `esc-l` | lowercase next word |
+
+### ways to access history
+| cmd | description |
+| --- | ---- |
+| `!!` | last command |
+| `!string` | last command _starting_ with string |
+| `!?string` | last command _containing_  string |
+| `^string1^string2` | repeat last command, replacing 1 with 2. This one is v useful if you make a typo. Note that the substitution only happens once |
+
 # 1/8/17 - Vim spell check
 Vim's spell check is enabled like this: `set spell spelllang=en_us`. You can
 tell vim what spell file you want to use like this: `set spellfile=~/.vim/spell/tess.utf-8.add`.
