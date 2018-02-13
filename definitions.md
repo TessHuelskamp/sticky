@@ -7,6 +7,36 @@ cement them in my memory :D.
 This also enables me to delete a lot of screenshots off of my phone :D
 
 # Words
+* Illustrious.
+  * Well-known, respected, admired for past achievements.
+  * Notably brilliant (also for achievements).
+* Spastic
+  * Related to spasms. Shaky. Uncontrolled.
+  * Is offensive in Britain (but not in the US?).
+* Catatonic
+  * Relating to catatonia (which is a state of abnormality of movement related
+    to a disturbed mental state
+  * An immobile/unresponsive stupor.
+* Zenith
+  * At the time when it's highest or most powerful.
+  * ~apex
+* scrabble
+  * to scratch or grope around with one's fingers to collect/find something.
+  * ~rummage ~scavenge
+* lithe
+  * Thin graceful agile
+* Citadel
+  * Strong point, fortress.
+* Deft
+  * Neatly skillful
+  * Demonstrating skill and cleverness.
+* Indelible
+  * ~of pens~ making marks that are not able to be removed.
+  * Other terms, not easily forgotten/removable.
+* Fatuous
+  * Silly and pointless.
+
+# Older stuff
 * Fungible.
   * Easily substitutable. Interchangeable.
   * E.g., money is usually fungible. Dollars earmarked for gas can easily be
