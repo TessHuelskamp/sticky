@@ -35,6 +35,17 @@ This also enables me to delete a lot of screenshots off of my phone :D
   * Other terms, not easily forgotten/removable.
 * Fatuous
   * Silly and pointless.
+* Conduit
+  * A channel or pipe for carrying water or other liquid.
+  * > I am happy to be learning this work in a "non-technical" way after
+    hearing it on Grey's :)
+* Reticent
+  * To be silent.
+  * Apparently second have of the word `ticent` is related to tacet.
+* Zeitgeist
+  * Spirit of a period time (characterization)
+* Periphrastic
+  _of writing styles_ indirect and circuitous.
 
 # Older stuff
 * Fungible.
