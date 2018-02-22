@@ -7,6 +7,28 @@ cement them in my memory :D.
 This also enables me to delete a lot of screenshots off of my phone :D
 
 # Words
+* Atavistic
+  * ~throwback
+  * Displaying characteristics of a previous cultural era/form
+* Providential
+  1. Occurring at a favorable time
+    * The providential storm canceled school!
+  1. Involving divine intervention(
+    * God's providential care...
+* Adulation
+  * Fake flattery, Noun(sycophantic)
+* Placid
+  * Mild, undisturbed, calm, peaceful
+* Self-flagellation
+  * Excessive criticism of oneself.
+* Disquieting
+  * Inducing feelings of anxiousness or worry.
+  * To make uneasy
+* Inanition
+  * Exhaustion caused from lack of nourishment.
+  * Lacking spirit, vigor, or enthusiasm.
+
+# Older stuff
 * Illustrious.
   * Well-known, respected, admired for past achievements.
   * Notably brilliant (also for achievements).
@@ -46,8 +68,6 @@ This also enables me to delete a lot of screenshots off of my phone :D
   * Spirit of a period time (characterization)
 * Periphrastic
   _of writing styles_ indirect and circuitous.
-
-# Older stuff
 * Fungible.
   * Easily substitutable. Interchangeable.
   * E.g., money is usually fungible. Dollars earmarked for gas can easily be
