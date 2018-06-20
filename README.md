@@ -7,6 +7,10 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 06/20/2018 - Link to getting around cmd line image
+
+![Direction Image](https://lorenzo.mile.si/wp-content/uploads/2018/02/moving_cli.png)
+(This works with my current setup (with new macs I'll need to remember to set the meta key].
 
 # 1/12/17 - Quick ways to get around the terminal line
 If I only learn one thing, it would be that `{alt, esc} + .` places the last
@@ -231,7 +235,7 @@ Output
     * And also it only works on the current line
     * ALSO: `F` brings you _backward_ to the next char.
   * `t` and `T` work similarly to `f` and `F` but they bring you to the
-    character _prior_ to the characer that follows the operator.
+    character _prior_ to the character that follows the operator.
 
 ## Bash
 These are the basic string substitutions. These examples are based from
@@ -246,7 +250,6 @@ These are the basic string substitutions. These examples are based from
 | `${#STRING}` | The number of chars in `$STRING` | |
 | `${STRING:IDX}` | `$STRING` starting at index `IDX` (0-based) | Can do negative indices but need a space or parens between `:` and `IDX`|
 | `${STRING:IDX:LEN}` | `$STRING` starting at index `IDX` (0-based) for at most `LEN` chars | |
-
 | `${STRING/pattern}` | Delete _first_ instance of pattern in `$STRING` | |
 | `${STRING/pattern/newpattern}` | Replace first instance of `pattern` in `$STRING` with `newpattern` | |
 | `${STRING//pattern}` | Delete _all_ instances of `pattern` in `$STRING` | |
