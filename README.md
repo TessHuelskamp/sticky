@@ -7,6 +7,16 @@ repeatedly google the same things.
 Hopefully this list should be expanded with new things as I commit the old
 things to memory and learn more things.
 
+# 07/02/2018 - More github stuff
+* To checkout a file from another branch (`develop` in this case) run:
+  * `git checkout develop -- FILES TO CHECKOUT`
+* Delete remote branch
+  * `git branch -d REMOTE BRANCH`
+* Get sha of a commit
+  * `git rev-parse COMMIT`
+  * > `COMMIT` can be a branch (local or remote) or any index of `HEAD` (e.g.
+    `HEAD^^^`)
+
 # 06/20/2018 - Link to getting around cmd line image
 
 ![Direction Image](https://lorenzo.mile.si/wp-content/uploads/2018/02/moving_cli.png)
@@ -71,7 +81,7 @@ exist.
 ### ways to access history
 | cmd | description |
 | --- | ---- |
-| `!!` | last command |
+| `!!` | last command. Good to run with `sudo !!`. Also works well with `nohup`, `echo`, and `git`. |
 | `!string` | last command _starting_ with string |
 | `!?string` | last command _containing_  string |
 | `^string1^string2` | repeat last command, replacing 1 with 2. This one is v useful if you make a typo. Note that the substitution only happens once |
@@ -208,7 +218,8 @@ the commented line. I'm not sure why you can't do comments like this: `$(#CMD)`.
 
 # 10/10/17
 ## Git
-To remove branches on remote `git push REPO --delete BRANCH`
+* To remove branches on remote `git push REPO --delete BRANCH`
+* Find files `git ls-files [PATTERN]`
 
 ## Vim
   * `CRTL-X` decrements a number
