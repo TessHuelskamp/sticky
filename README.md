@@ -11,7 +11,7 @@ things to memory and learn more things.
 * To checkout a file from another branch (`develop` in this case) run:
   * `git checkout develop -- FILES TO CHECKOUT`
 * Delete remote branch
-  * `git branch -d REMOTE BRANCH`
+  * `git push --delete REMOTE BRANCH`
 * Get sha of a commit
   * `git rev-parse COMMIT`
   * > `COMMIT` can be a branch (local or remote) or any index of `HEAD` (e.g.
@@ -21,6 +21,8 @@ things to memory and learn more things.
 
 ![Direction Image](https://lorenzo.mile.si/wp-content/uploads/2018/02/moving_cli.png)
 (This works with my current setup (with new macs I'll need to remember to set the meta key].
+
+* > This does _not_ mean I'm going to learn emacs! 🙃
 
 # 1/12/17 - Quick ways to get around the terminal line
 If I only learn one thing, it would be that `{alt, esc} + .` places the last
