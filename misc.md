@@ -1,3 +1,6 @@
+# 10/27/18 - DNS
+`dig any DOMAIN`
+
 # 10/23/17 - Gmail shortcuts
 These shortcuts are directly taken from
 [this](https://blog.hubspot.com/sales/gmail-keyboard-shortcuts) article.
